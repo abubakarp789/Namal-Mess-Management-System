@@ -1,0 +1,130 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/27.0.9 Chrome/134.0.6998.205 Electron/35.4.0 Safari/537.36" version="27.0.9">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Context Level DFD">
+    <mxGraphModel dx="1389" dy="880" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1400" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="system_to_student1" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;b&gt;Menu Information&lt;/b&gt;&lt;/font&gt;" style="endArrow=classic;html=1;rounded=0;exitX=0.429;exitY=0;exitDx=0;exitDy=0;entryX=0.316;entryY=0.994;entryDx=0;entryDy=0;strokeWidth=2;strokeColor=#6c8ebf;entryPerimeter=0;exitPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="central_system" target="student" edge="1">
+          <mxGeometry x="0.057" y="8" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="400" as="sourcePoint" />
+            <mxPoint x="450" y="350" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="679" y="320" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="student_to_system2" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;b&gt;Order Requests&lt;/b&gt;&lt;/font&gt;" style="endArrow=classic;html=1;rounded=0;entryX=0.698;entryY=0.032;entryDx=0;entryDy=0;strokeWidth=2;strokeColor=#d79b00;entryPerimeter=0;exitX=0.863;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="student" target="central_system" edge="1">
+          <mxGeometry x="-0.0466" y="51" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="759" y="182" as="sourcePoint" />
+            <mxPoint x="558.75" y="440" as="targetPoint" />
+            <Array as="points" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="system_to_student2" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;b&gt;Order Confirmation&lt;/b&gt;&lt;/font&gt;" style="endArrow=classic;html=1;rounded=0;exitX=0.568;exitY=-0.002;exitDx=0;exitDy=0;entryX=0.606;entryY=0.994;entryDx=0;entryDy=0;strokeWidth=2;strokeColor=#6c8ebf;entryPerimeter=0;exitPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="central_system" target="student" edge="1">
+          <mxGeometry x="-0.2873" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="420" as="sourcePoint" />
+            <mxPoint x="310" y="230" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="720" y="310" />
+              <mxPoint x="720" y="190" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="title" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;Namal University Mess Management System - Context Level DFD&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="350" y="30" width="700" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="central_system" value="&lt;font style=&quot;font-size: 16px; color: rgb(0, 0, 0);&quot;&gt;&lt;b&gt;Level 0&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;Namal University&lt;br&gt;Mess Management&lt;br&gt;System&lt;/b&gt;&lt;/font&gt;&lt;/font&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=3;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="550" y="350" width="300" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="student" value="&lt;font style=&quot;font-size: 16px; color: rgb(0, 0, 0);&quot;&gt;&lt;b&gt;Student&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="630" y="100" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="mess_manager" value="&lt;font style=&quot;font-size: 16px; color: rgb(0, 0, 0);&quot;&gt;&lt;b&gt;Mess Manager&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="140" y="450" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="menu_manager" value="&lt;font style=&quot;font-size: 16px; color: rgb(0, 0, 0);&quot;&gt;&lt;b&gt;Menu Manager&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="625" y="800" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="kitchen_staff" value="&lt;font style=&quot;font-size: 16px; color: rgb(0, 0, 0);&quot;&gt;&lt;b&gt;Kitchen Staff&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="1100" y="460" width="150" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="student_to_system1" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;b&gt;Registration/Login&lt;/b&gt;&lt;/font&gt;" style="endArrow=classic;html=1;rounded=0;exitX=0.063;exitY=1.013;exitDx=0;exitDy=0;entryX=0.3;entryY=0.032;entryDx=0;entryDy=0;strokeWidth=2;strokeColor=#d79b00;exitPerimeter=0;entryPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="student" target="central_system" edge="1">
+          <mxGeometry x="-0.3406" y="-10" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="400" as="sourcePoint" />
+            <mxPoint x="450" y="350" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="640" y="240" />
+              <mxPoint x="640" y="330" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="manager_to_system" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.009;entryY=0.376;entryDx=0;entryDy=0;strokeWidth=2;strokeColor=#d79b00;entryPerimeter=0;exitX=0.998;exitY=0.134;exitDx=0;exitDy=0;exitPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="mess_manager" target="central_system" edge="1">
+          <mxGeometry x="-0.02" y="20" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="520" as="sourcePoint" />
+            <mxPoint x="450" y="550" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lLAGMcBpSLccxEynAh9Y-0" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="kitchen_staff">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="940" y="430" as="sourcePoint" />
+            <mxPoint x="850" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lLAGMcBpSLccxEynAh9Y-1" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Order Details&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="lLAGMcBpSLccxEynAh9Y-0">
+          <mxGeometry x="-0.3286" y="5" relative="1" as="geometry">
+            <mxPoint x="-26" y="-15" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lLAGMcBpSLccxEynAh9Y-2" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=0;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1100" y="510" as="sourcePoint" />
+            <mxPoint x="850" y="510" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lLAGMcBpSLccxEynAh9Y-3" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;Confirmation Reciept&amp;nbsp;&lt;/font&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="lLAGMcBpSLccxEynAh9Y-2">
+          <mxGeometry x="-0.3286" y="5" relative="1" as="geometry">
+            <mxPoint x="-26" y="5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lLAGMcBpSLccxEynAh9Y-4" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=2;strokeColor=#3399FF;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-0.1" y="-20" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="670" y="650" as="sourcePoint" />
+            <mxPoint x="670" y="800" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lLAGMcBpSLccxEynAh9Y-5" value="Updated Items" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=90;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="690" y="700" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lLAGMcBpSLccxEynAh9Y-6" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;strokeWidth=2;strokeColor=#d79b00;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-0.1" y="-20" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="730" y="800" as="sourcePoint" />
+            <mxPoint x="730" y="650" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lLAGMcBpSLccxEynAh9Y-7" value="&lt;font style=&quot;font-size: 10px;&quot;&gt;Menu Update Confiramtion&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=90;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="570" y="710" width="165" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lLAGMcBpSLccxEynAh9Y-9" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;Sales Report Requested&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="340" y="460" width="165" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="lLAGMcBpSLccxEynAh9Y-11" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.003;entryY=0.567;entryDx=0;entryDy=0;strokeWidth=2;strokeColor=#3399FF;entryPerimeter=0;fillColor=#0050ef;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-0.02" y="20" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="550" y="511" as="sourcePoint" />
+            <mxPoint x="289.05" y="511.2" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="lLAGMcBpSLccxEynAh9Y-12" value="&lt;span style=&quot;font-size: 10px;&quot;&gt;Sales Report Passed&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="340" y="510" width="165" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

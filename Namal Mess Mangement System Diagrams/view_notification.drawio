@@ -1,0 +1,90 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/27.0.9 Chrome/134.0.6998.205 Electron/35.4.0 Safari/537.36" version="27.0.9">
+  <diagram id="view_notifications" name="View Notifications Sequence">
+    <mxGraphModel dx="1042" dy="660" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="Customer&#xa;(Student/Faculty)" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="120" y="80" width="100" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="2" vertex="1">
+          <mxGeometry x="45" y="80" width="10" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="User Interface" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="300" y="80" width="100" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="4" vertex="1">
+          <mxGeometry x="45" y="80" width="10" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="6" value="Notification&#xa;Controller" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="480" y="80" width="100" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="7" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="6" vertex="1">
+          <mxGeometry x="45" y="120" width="10" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="8" value="Notification&#xa;Database" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="660" y="80" width="100" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="9" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="8" vertex="1">
+          <mxGeometry x="45" y="160" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="12" value="Click Notification Icon" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" parent="1" source="3" target="5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="230" y="160" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="13" value="Request Notifications" style="html=1;verticalAlign=bottom;endArrow=block;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="355" y="200" as="sourcePoint" />
+            <mxPoint x="525" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="14" value="Fetch User Notifications" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="535" y="240" as="sourcePoint" />
+            <mxPoint x="705" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="16" value="Return Notification Data" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="535" y="280" as="targetPoint" />
+            <mxPoint x="705" y="280" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="17" value="Process Notification Data" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="355" y="310" as="targetPoint" />
+            <mxPoint x="525" y="310" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="18" value="&amp;nbsp;Display Notifications" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="175" y="340" as="targetPoint" />
+            <mxPoint x="345" y="340" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="30" value="&amp;nbsp;Mark Notification as Read" style="html=1;verticalAlign=bottom;endArrow=block;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="175" y="370" as="sourcePoint" />
+            <mxPoint x="345" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="31" value="&amp;nbsp;Update Read Status" style="html=1;verticalAlign=bottom;endArrow=block;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="355" y="400" as="sourcePoint" />
+            <mxPoint x="525" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="32" value="Update Database" style="html=1;verticalAlign=bottom;endArrow=block;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="525" y="410" as="sourcePoint" />
+            <mxPoint x="705" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="huhhblP736qouKOynqJq-32" value="&lt;b&gt;SYSTEM SEQUENCE DIAGRAM - VIEW NOTIFICATION&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="265" y="28" width="330" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

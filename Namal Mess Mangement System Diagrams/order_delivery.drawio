@@ -1,0 +1,134 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/27.0.2 Chrome/134.0.6998.205 Electron/35.3.0 Safari/537.36" version="27.0.2">
+  <diagram id="JV4PbgViDQK4fZMvjVVX" name="Order Delivery">
+    <mxGraphModel dx="786" dy="516" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Hs5-Vx3Zt_2zzwW9cqEZ-1" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;&lt;b&gt;System Sequence Diagram: Make Payment (Order Delivery)&lt;/b&gt;&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="215" y="20" width="465" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Hs5-Vx3Zt_2zzwW9cqEZ-2" value="Kitchen Staff" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+          <mxGeometry x="120" y="80" width="100" height="680" as="geometry" />
+        </mxCell>
+        <mxCell id="Hs5-Vx3Zt_2zzwW9cqEZ-3" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="Hs5-Vx3Zt_2zzwW9cqEZ-2" vertex="1">
+          <mxGeometry x="45" y="80" width="10" height="510" as="geometry" />
+        </mxCell>
+        <mxCell id="Hs5-Vx3Zt_2zzwW9cqEZ-4" value="System" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+          <mxGeometry x="375" y="80" width="100" height="680" as="geometry" />
+        </mxCell>
+        <mxCell id="Hs5-Vx3Zt_2zzwW9cqEZ-5" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="Hs5-Vx3Zt_2zzwW9cqEZ-4" vertex="1">
+          <mxGeometry x="45" y="80" width="10" height="510" as="geometry" />
+        </mxCell>
+        <mxCell id="Hs5-Vx3Zt_2zzwW9cqEZ-6" value="Stock" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+          <mxGeometry x="630" y="80" width="100" height="680" as="geometry" />
+        </mxCell>
+        <mxCell id="Hs5-Vx3Zt_2zzwW9cqEZ-8" value="Access Order" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" parent="1" source="Hs5-Vx3Zt_2zzwW9cqEZ-3" target="Hs5-Vx3Zt_2zzwW9cqEZ-5" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="385" y="190" as="sourcePoint" />
+            <mxPoint x="465" y="190" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="300" y="180" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hs5-Vx3Zt_2zzwW9cqEZ-9" value="Display Order Details" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" parent="1" source="Hs5-Vx3Zt_2zzwW9cqEZ-5" target="Hs5-Vx3Zt_2zzwW9cqEZ-3" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="465" y="190" as="sourcePoint" />
+            <mxPoint x="385" y="190" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="300" y="220" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hs5-Vx3Zt_2zzwW9cqEZ-10" value="Deliver Order" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" parent="1" source="Hs5-Vx3Zt_2zzwW9cqEZ-3" target="Hs5-Vx3Zt_2zzwW9cqEZ-5" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="385" y="270" as="sourcePoint" />
+            <mxPoint x="465" y="270" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="300" y="260" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hs5-Vx3Zt_2zzwW9cqEZ-11" value="Order Delivered" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="390" as="sourcePoint" />
+            <mxPoint x="175" y="390" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="300" y="390" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hs5-Vx3Zt_2zzwW9cqEZ-13" value="Reduce respective items&amp;nbsp;" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" parent="1" edge="1">
+          <mxGeometry x="-0.1429" y="10" width="80" relative="1" as="geometry">
+            <mxPoint x="435" y="280" as="sourcePoint" />
+            <mxPoint x="680" y="280" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="555" y="280" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hs5-Vx3Zt_2zzwW9cqEZ-18" value="Update Wallet Balance" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="430" y="430" as="sourcePoint" />
+            <mxPoint x="430" y="470" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="480" y="430" />
+              <mxPoint x="480" y="470" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hs5-Vx3Zt_2zzwW9cqEZ-19" value="Generate Transaction Record" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="430" y="510" as="sourcePoint" />
+            <mxPoint x="430" y="550" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="480" y="510" />
+              <mxPoint x="480" y="550" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hs5-Vx3Zt_2zzwW9cqEZ-20" value="Display Updated Wallet Balance" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="415" y="600" as="sourcePoint" />
+            <mxPoint x="170" y="600" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="295" y="600" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hs5-Vx3Zt_2zzwW9cqEZ-21" value="Send Payment Receipt" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="420" y="640" as="sourcePoint" />
+            <mxPoint x="175" y="640" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="300" y="640" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Hs5-Vx3Zt_2zzwW9cqEZ-22" value="alt" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" parent="1" vertex="1">
+          <mxGeometry x="80" y="420" width="600" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="Hs5-Vx3Zt_2zzwW9cqEZ-23" value="[payment successful]" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="90" y="460" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Hs5-Vx3Zt_2zzwW9cqEZ-24" value="" style="endArrow=none;dashed=1;html=1;rounded=0;exitX=0.001;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="Hs5-Vx3Zt_2zzwW9cqEZ-22" target="Hs5-Vx3Zt_2zzwW9cqEZ-22" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="400" y="470" as="sourcePoint" />
+            <mxPoint x="450" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="fmgpJM9rjkqHPnehZGSX-1" value="Stock Updated" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="680" y="320" as="sourcePoint" />
+            <mxPoint x="435" y="320" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="605" y="320" />
+              <mxPoint x="555" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

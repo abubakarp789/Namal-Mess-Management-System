@@ -1,0 +1,130 @@
+<mxfile host="Electron" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/27.0.2 Chrome/134.0.6998.205 Electron/35.3.0 Safari/537.36" version="27.0.2">
+  <diagram id="update_order_status" name="Update Order Status Sequence">
+    <mxGraphModel dx="786" dy="516" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="Kitchen Staff" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="120" y="80" width="100" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="2" vertex="1">
+          <mxGeometry x="45" y="80" width="10" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="Order Management&#xa;UI" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="300" y="80" width="100" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="4" vertex="1">
+          <mxGeometry x="45" y="80" width="10" height="290" as="geometry" />
+        </mxCell>
+        <mxCell id="6" value="Order Status&#xa;Controller" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="480" y="80" width="100" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="7" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="6" vertex="1">
+          <mxGeometry x="45" y="105" width="10" height="215" as="geometry" />
+        </mxCell>
+        <mxCell id="8" value="Order&#xa;Database" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="660" y="80" width="100" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="9" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="8" vertex="1">
+          <mxGeometry x="45" y="130" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bg-4KUy59EPGgXKcp1wp-25" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="8">
+          <mxGeometry x="45" y="250" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="10" value="Notification&#xa;Service" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;outlineConnect=0;" parent="1" vertex="1">
+          <mxGeometry x="840" y="80" width="100" height="400" as="geometry" />
+        </mxCell>
+        <mxCell id="12" value="View Pending Orders" style="html=1;verticalAlign=bottom;endArrow=block;entryX=0;entryY=0;" parent="1" source="3" target="5" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="230" y="160" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="13" value="Request Order List" style="html=1;verticalAlign=bottom;endArrow=block;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="355" y="200" as="sourcePoint" />
+            <mxPoint x="525" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="14" value="Fetch Orders" style="html=1;verticalAlign=bottom;endArrow=block;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="535" y="220" as="sourcePoint" />
+            <mxPoint x="705" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="15" value="Return Orders Data" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="535" y="240" as="targetPoint" />
+            <mxPoint x="705" y="240" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="16" value="Order List" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="355" y="260" as="targetPoint" />
+            <mxPoint x="525" y="260" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="17" value="&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Display Orders&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="175" y="280" as="targetPoint" />
+            <mxPoint x="345" y="280" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="18" value="&lt;div&gt;Update Order Status&lt;/div&gt;" style="html=1;verticalAlign=bottom;endArrow=block;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="175" y="300" as="sourcePoint" />
+            <mxPoint x="345" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="19" value="Submit Status Update" style="html=1;verticalAlign=bottom;endArrow=block;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="355" y="320" as="sourcePoint" />
+            <mxPoint x="525" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="20" value="Update Database" style="html=1;verticalAlign=bottom;endArrow=block;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="535" y="340" as="sourcePoint" />
+            <mxPoint x="705" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="21" value="Send Status Notification" style="html=1;verticalAlign=bottom;endArrow=block;" parent="1" edge="1" source="11">
+          <mxGeometry x="NaN" y="85" relative="1" as="geometry">
+            <mxPoint x="535" y="300" as="sourcePoint" />
+            <mxPoint x="885" y="300" as="targetPoint" />
+            <mxPoint x="-85" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="22" value="Confirmation" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="535" y="360" as="targetPoint" />
+            <mxPoint x="705" y="360" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="23" value="Update Success" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="355" y="380" as="targetPoint" />
+            <mxPoint x="525" y="380" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="24" value="Display Confirmation" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;" parent="1" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="175" y="400" as="targetPoint" />
+            <mxPoint x="345" y="400" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bg-4KUy59EPGgXKcp1wp-24" value="" style="html=1;verticalAlign=bottom;endArrow=block;" edge="1" parent="1" target="11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="535" y="300" as="sourcePoint" />
+            <mxPoint x="885" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="11" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" parent="1" vertex="1">
+          <mxGeometry x="885" y="285" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="bg-4KUy59EPGgXKcp1wp-26" value="Update Order Menu - Sequential Diagram" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="405" y="28" width="250" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
